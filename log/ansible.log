@@ -1,0 +1,268 @@
+2016-04-20 07:48:24,755 p=9782 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:49:03,345 p=9790 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:49:16,914 p=9792 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:50:20,258 p=9794 u=ryohei |  [0;31m [ERROR]: User interrupted execution
+[0m
+2016-04-20 07:50:27,562 p=9802 u=ryohei |  [0;31m [ERROR]: User interrupted execution
+[0m
+2016-04-20 07:50:31,621 p=9807 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:52:06,695 p=9820 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:54:05,451 p=9822 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:54:23,515 p=9825 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:55:18,204 p=9829 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:55:31,197 p=9831 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:55:41,129 p=9833 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:58:08,966 p=9838 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:58:12,698 p=9840 u=ryohei |  [0;33mbar.example.com | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:12,704 p=9840 u=ryohei |  [0;33mmail.example.com | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:12,705 p=9840 u=ryohei |  [0;33mone.example.com | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:12,707 p=9840 u=ryohei |  [0;33mfoo.example.com | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:12,713 p=9840 u=ryohei |  [0;33mtwo.example.com | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:12,900 p=9840 u=ryohei |  [0;33mthree.example.com | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:16,746 p=9860 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 07:58:21,624 p=9862 u=ryohei |  [0;33mmac: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:21,627 p=9862 u=ryohei |  [0;33m192.168.33.10: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:21,639 p=9862 u=ryohei |  [0;33msolr-master-01: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:21,670 p=9862 u=ryohei |  [0;33mhosts: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:35,782 p=9876 u=ryohei |  [0;33mmac: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:35,784 p=9876 u=ryohei |  [0;33mhosts: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:35,785 p=9876 u=ryohei |  [0;33msolr-master-01: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:35,788 p=9876 u=ryohei |  [0;33m192.168.33.10: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:42,596 p=9890 u=ryohei |  [0;33mmac: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:42,597 p=9890 u=ryohei |  [0;33mhosts: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:58:42,598 p=9890 u=ryohei |  [0;33msolr-master-01: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:59:03,614 p=9901 u=ryohei |  [0;33mmac: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:59:03,616 p=9901 u=ryohei |  [0;33mhosts: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:59:03,616 p=9901 u=ryohei |  [0;33msolr-master-01: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:59:28,388 p=9912 u=ryohei |  [0;33mmac: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:59:28,390 p=9912 u=ryohei |  [0;33mhosts: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 07:59:28,392 p=9912 u=ryohei |  [0;33msolr-master-01: | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:00:17,358 p=9923 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 08:01:14,789 p=9925 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:01:19,632 p=9930 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:02:57,710 p=9947 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:03:17,710 p=9952 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:03:26,514 p=9957 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:03:44,711 p=9962 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:07:52,206 p=9998 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:08:07,097 p=10003 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}[0m
+2016-04-20 08:08:18,148 p=10008 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 08:08:18,217 p=10008 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 08:08:18,380 p=10008 u=ryohei |  [0;33msolr-master-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error. The output was:\nOpenSSH_6.9p1, LibreSSL 2.1.8\r\ndebug1: Reading configuration data /Users/ryohei/.ssh/config\r\ndebug1: /Users/ryohei/.ssh/config line 1: Applying options for *\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 21: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug1: Control socket \"/Users/ryohei/.ansible/cp/ansible-ssh-solr-master-01-22-vagrant\" does not exist\r\ndebug2: ssh_connect: needpriv 0\r\ndebug1: Connecting to solr-master-01 [192.168.33.10] port 22.\r\ndebug2: fd 3 setting O_NONBLOCK\r\ndebug1: fd 3 clearing O_NONBLOCK\r\ndebug1: Connection established.\r\ndebug3: timeout: 10000 ms remain after connect\r\ndebug1: identity file /Users/ryohei/.ssh/id_rsa type 1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /Users/ryohei/.ssh/id_rsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /Users/ryohei/.ssh/id_dsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /Users/ryohei/.ssh/id_dsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /Users/ryohei/.ssh/id_ecdsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /Users/ryohei/.ssh/id_ecdsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /Users/ryohei/.ssh/id_ed25519 type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /Users/ryohei/.ssh/id_ed25519-cert type -1\r\ndebug1: Enabling compatibility mode for protocol 2.0\r\ndebug1: Local version string SSH-2.0-OpenSSH_6.9\r\ndebug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1 Ubuntu-2ubuntu2\r\ndebug1: match: OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 pat OpenSSH_6.6.1* compat 0x04000000\r\ndebug2: fd 3 setting O_NONBLOCK\r\ndebug1: Authenticating to solr-master-01:22 as 'vagrant'\r\ndebug3: hostkeys_foreach: reading file \"/Users/ryohei/.ssh/known_hosts\"\r\ndebug3: record_hostkey: found key type ECDSA in file /Users/ryohei/.ssh/known_hosts:22\r\ndebug3: load_hostkeys: loaded 1 keys from solr-master-01\r\ndebug3: order_hostkeyalgs: prefer hostkeyalgs: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521\r\ndebug1: SSH2_MSG_KEXINIT sent\r\ndebug1: SSH2_MSG_KEXINIT received\r\ndebug2: kex_parse_kexinit: curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\r\ndebug2: kex_parse_kexinit: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ssh-dss-cert-v01@openssh.com,ssh-rsa-cert-v00@openssh.com,ssh-dss-cert-v00@openssh.com,ssh-ed25519,ssh-rsa,ssh-dss\r\ndebug2: kex_parse_kexinit: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se\r\ndebug2: kex_parse_kexinit: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se\r\ndebug2: kex_parse_kexinit: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-md5-etm@openssh.com,hmac-ripemd160-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-md5-96-etm@openssh.com,hmac-md5,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96\r\ndebug2: kex_parse_kexinit: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-md5-etm@openssh.com,hmac-ripemd160-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-md5-96-etm@openssh.com,hmac-md5,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96\r\ndebug2: kex_parse_kexinit: zlib@openssh.com,zlib,none\r\ndebug2: kex_parse_kexinit: zlib@openssh.com,zlib,none\r\ndebug2: kex_parse_kexinit: \r\ndebug2: kex_parse_kexinit: \r\ndebug2: kex_parse_kexinit: first_kex_follows 0 \r\ndebug2: kex_parse_kexinit: reserved 0 \r\ndebug2: kex_parse_kexinit: curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\r\ndebug2: kex_parse_kexinit: ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ssh-ed25519\r\ndebug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se\r\ndebug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se\r\ndebug2: kex_parse_kexinit: hmac-md5-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-ripemd160-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-md5-96-etm@openssh.com,hmac-md5,hmac-sha1,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96\r\ndebug2: kex_parse_kexinit: hmac-md5-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-ripemd160-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-md5-96-etm@openssh.com,hmac-md5,hmac-sha1,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96\r\ndebug2: kex_parse_kexinit: none,zlib@openssh.com\r\ndebug2: kex_parse_kexinit: none,zlib@openssh.com\r\ndebug2: kex_parse_kexinit: \r\ndebug2: kex_parse_kexinit: \r\ndebug2: kex_parse_kexinit: first_kex_follows 0 \r\ndebug2: kex_parse_kexinit: reserved 0 \r\ndebug1: kex: server->client chacha20-poly1305@openssh.com <implicit> zlib@openssh.com\r\ndebug1: kex: client->server chacha20-poly1305@openssh.com <implicit> zlib@openssh.com\r\ndebug1: expecting SSH2_MSG_KEX_ECDH_REPLY\r\ndebug1: Server host key: ecdsa-sha2-nistp256 SHA256:nQq6MHh5FwRyl1KQ9NU3d0Swry6sy7i1qxvbMnmuvSY\r\ndebug3: hostkeys_foreach: reading file \"/Users/ryohei/.ssh/known_hosts\"\r\ndebug3: record_hostkey: found key type ECDSA in file /Users/ryohei/.ssh/known_hosts:22\r\ndebug3: load_hostkeys: loaded 1 keys from solr-master-01\r\ndebug3: hostkeys_foreach: reading file \"/Users/ryohei/.ssh/known_hosts\"\r\ndebug3: record_hostkey: found key type ECDSA in file /Users/ryohei/.ssh/known_hosts:21\r\ndebug3: load_hostkeys: loaded 1 keys from 192.168.33.10\r\ndebug1: Host 'solr-master-01' is known and matches the ECDSA host key.\r\ndebug1: Found key in /Users/ryohei/.ssh/known_hosts:22\r\ndebug2: set_newkeys: mode 1\r\ndebug1: SSH2_MSG_NEWKEYS sent\r\ndebug1: expecting SSH2_MSG_NEWKEYS\r\ndebug2: set_newkeys: mode 0\r\ndebug1: SSH2_MSG_NEWKEYS received\r\ndebug1: SSH2_MSG_SERVICE_REQUEST sent\r\ndebug2: service_accept: ssh-userauth\r\ndebug1: SSH2_MSG_SERVICE_ACCEPT received\r\ndebug2: key: /Users/ryohei/.ssh/id_rsa (0x7fcac3416620),\r\ndebug2: key: /Users/ryohei/.ssh/id_dsa (0x0),\r\ndebug2: key: /Users/ryohei/.ssh/id_ecdsa (0x0),\r\ndebug2: key: /Users/ryohei/.ssh/id_ed25519 (0x0),\r\ndebug1: Authentications that can continue: publickey,password\r\ndebug3: start over, passed a different list publickey,password\r\ndebug3: preferred gssapi-with-mic,gssapi-keyex,hostbased,publickey\r\ndebug3: authmethod_lookup publickey\r\ndebug3: remaining preferred: ,gssapi-keyex,hostbased,publickey\r\ndebug3: authmethod_is_enabled publickey\r\ndebug1: Next authentication method: publickey\r\ndebug1: Offering RSA public key: /Users/ryohei/.ssh/id_rsa\r\ndebug3: send_pubkey_test\r\ndebug2: we sent a publickey packet, wait for reply\r\ndebug1: Server accepts key: pkalg ssh-rsa blen 279\r\ndebug2: input_userauth_pk_ok: fp SHA256:Ysgga25ygGgyOVVtOMyPcqTn7RwJ1fOmpKx2twq+SOk\r\ndebug3: sign_and_send_pubkey: RSA SHA256:Ysgga25ygGgyOVVtOMyPcqTn7RwJ1fOmpKx2twq+SOk\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\nPermissions 0777 for '/Users/ryohei/.ssh/id_rsa' are too open.\r\nIt is required that your private key files are NOT accessible by others.\r\nThis private key will be ignored.\r\nLoad key \"/Users/ryohei/.ssh/id_rsa\": bad permissions\r\ndebug1: Trying private key: /Users/ryohei/.ssh/id_dsa\r\ndebug3: no such identity: /Users/ryohei/.ssh/id_dsa: No such file or directory\r\ndebug1: Trying private key: /Users/ryohei/.ssh/id_ecdsa\r\ndebug3: no such identity: /Users/ryohei/.ssh/id_ecdsa: No such file or directory\r\ndebug1: Trying private key: /Users/ryohei/.ssh/id_ed25519\r\ndebug3: no such identity: /Users/ryohei/.ssh/id_ed25519: No such file or directory\r\ndebug2: we did not send a packet, disable method\r\ndebug1: No more authentication methods to try.\r\nPermission denied (publickey,password).\r\n", 
+    "unreachable": true
+}[0m
+2016-04-20 08:10:20,366 p=10019 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 08:10:20,436 p=10019 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 08:10:20,833 p=10019 u=ryohei |  [0;32msolr-master-01 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}[0m
+2016-04-20 08:10:28,568 p=10030 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 08:10:28,627 p=10030 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 08:10:28,821 p=10030 u=ryohei |  [0;32msolr-master-01 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}[0m
+2016-04-20 20:29:47,849 p=10124 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 20:29:47,974 p=10124 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 20:29:48,452 p=10124 u=ryohei |  [0;32msolr-master-01 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}[0m
+2016-04-20 20:31:45,772 p=10151 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 20:31:45,841 p=10151 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 20:31:46,212 p=10151 u=ryohei |  [0;32msolr-master-01 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}[0m
+2016-04-20 20:32:01,145 p=10162 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 20:32:01,149 p=10162 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 20:32:01,212 p=10162 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 20:32:14,169 p=10164 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 20:32:14,173 p=10164 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 20:32:14,224 p=10164 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 20:32:41,691 p=10166 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 20:32:41,694 p=10166 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 20:32:41,752 p=10166 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 20:34:55,876 p=10177 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 20:34:55,884 p=10177 u=ryohei |  [1;35m [WARNING]: provided hosts list is empty, only localhost is available
+[0m
+2016-04-20 20:34:56,000 p=10177 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 20:35:00,350 p=10179 u=ryohei |  Using /Users/ryohei/Ansible/ansible.cfg as config file
+2016-04-20 20:35:00,413 p=10179 u=ryohei |  [0;34mLoaded callback minimal of type stdout, v2.0[0m
+2016-04-20 20:35:00,831 p=10179 u=ryohei |  [0;32msolr-master-01 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}[0m
