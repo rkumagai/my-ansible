@@ -30,6 +30,12 @@ $ vim ~/.ssh/authorized_keys
 ```
 
 
+# Install roles by ansible-galaxy
+
+```
+ansible-galaxy install -r install_roles.yml
+```
+
 # Sites
 
 - How To Install Solr 5.2.1 on Ubuntu 14.04

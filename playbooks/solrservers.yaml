@@ -11,3 +11,5 @@
       sudo: yes
     - apt: name=python-software-properties state=present
       sudo: yes
+  roles:
+      - { role: ansibl3.ubuntu_sunjava }
