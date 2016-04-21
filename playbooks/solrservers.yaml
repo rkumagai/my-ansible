@@ -1,0 +1,13 @@
+# This is solrserver playbook
+#
+#
+#
+#
+
+- hosts: solarservers
+  vars:
+  tasks:
+    - apt: update_cache=yes
+      sudo: yes
+    - apt: name=python-software-properties state=present
+      sudo: yes
