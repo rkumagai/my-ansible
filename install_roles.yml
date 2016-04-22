@@ -1,3 +1,4 @@
 # from galaxy
 - src: yatesr.timezone
 - src: ansibl3.ubuntu_sunjava
+- src: yoshzz.solr

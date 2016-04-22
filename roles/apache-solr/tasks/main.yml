@@ -1,0 +1,25 @@
+- name: Create sources directory
+  sudo: yes
+  file: >
+    path=~/sources
+    state=directory
+
+- name: Download Solr
+  sudo: yes
+  get_url: 
+    url=http://archive.apache.org/dist/lucene/solr/{{ solr_version }}/{{ solr_filename }}.tgz
+    dest=~/sources/{{ solr_filename }}.tgz
+    force=no
+
+- name: Extract Solr
+  sudo: yes
+  command: 
+    tar -C ~/sources -xvzf ~/sources/{{ solr_filename }}.tgz
+    creates=~/sources/{{ solr_filename }}
+
+- name: Execute install_solr_service.sh
+  sudo: yes
+  shell: ~/sources/{{ solr_filename }}/bin/install_solr_service.sh ~/sources/{{ solr_filename }}.tgz
+
+- service: name=solr state=restarted
+  sudo: yes

@@ -7,9 +7,11 @@ $ a all -m ping -u vagrant -i hosts -vvvv
 
 # Remote host setting (Ubuntu)
 
+@todo make task following.
+
 ```
 // Create ansible user
-$ useradd ansible
+$ sudo useradd -m ansible
 
 // Password setting
 $ sudo passwd ansible
@@ -17,16 +19,20 @@ Enter new UNIX password: ******
 Retype new UNIX password: ******
 
 // Change default shell to bash
-$ sudo chsh -s /bin/bash
+$ sudo chsh -s /bin/bash ansible
 
 // Add sudo to ansible
-sudo update-alternatives --config editor
-sudo visudo -f /etc/sudoers.d/ansible
+$ sudo update-alternatives --config editor
+$ sudo visudo -f /etc/sudoers.d/ansible
+ansible   ALL=(ALL) NOPASSWD: ALL
 
 // Setting ssh login
 $ sudo su - ansible
 $ mkdir ~/.ssh
 $ vim ~/.ssh/authorized_keys
+$ chmod 700 ~/.ssh
+$ chmod 700 ~/.ssh/authorized_keys
+
 ```
 
 

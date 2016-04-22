@@ -1,1 +1,4 @@
 log/*.log
+roles/yatesr.timezone
+roles/ansibl3.ubuntu_sunjava
+roles/yoshzz.solr
