@@ -1,1 +1,7 @@
+# Common tasks
+#
+#
+
 ---
+- apt: update_cache=yes
+  sudo: yes

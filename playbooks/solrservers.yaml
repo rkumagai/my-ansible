@@ -1,18 +1,13 @@
 # This is solrserver playbook
 #
 #
-#
-#
 
 - hosts: solarservers
+  remote_user: vagrant
   vars:
       solr_version: 6.0.0
-      solr_version: 6.0.0
       solr_filename: solr-6.0.0 
-  tasks:
-    - apt: update_cache=yes
-      sudo: yes
   roles:
-      - { role: ansibl3.ubuntu_sunjava }
-      - common
-      - apache-solr
+    - common
+    - role: ansibl3.ubuntu_sunjava
+    - apache-solr
