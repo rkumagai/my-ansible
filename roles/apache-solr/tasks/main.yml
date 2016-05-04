@@ -1,25 +1,35 @@
+- name: Regist solr source folder
+  stat: path=/opt/{{ solr_filename }}
+  sudo: yes
+  register: solr_source_folder
+
 - name: Create sources directory
   sudo: yes
   file: >
-    path=~/sources
+    path=/opt
     state=directory
+  when: not solr_source_folder.stat.exists
 
 - name: Download Solr
   sudo: yes
   get_url: 
     url=http://archive.apache.org/dist/lucene/solr/{{ solr_version }}/{{ solr_filename }}.tgz
-    dest=~/sources/{{ solr_filename }}.tgz
+    dest=/opt/{{ solr_filename }}.tgz
     force=no
+  when: not solr_source_folder.stat.exists
 
 - name: Extract Solr
   sudo: yes
   command: 
-    tar -C ~/sources -xvzf ~/sources/{{ solr_filename }}.tgz
-    creates=~/sources/{{ solr_filename }}
+    tar -C /opt -xvzf /opt/{{ solr_filename }}.tgz
+    creates=/opt/{{ solr_filename }}
+  when: not solr_source_folder.stat.exists
 
 - name: Execute install_solr_service.sh
   sudo: yes
-  shell: ~/sources/{{ solr_filename }}/bin/install_solr_service.sh ~/sources/{{ solr_filename }}.tgz
+  shell: /opt/{{ solr_filename }}/bin/install_solr_service.sh /opt/{{ solr_filename }}.tgz
+  when: not solr_source_folder.stat.exists
 
-- service: name=solr state=restarted
+- name: Add symlink solr to bin folder
   sudo: yes
+  file: src=/opt/solr/bin/solr dest=/usr/bin/solr state=link

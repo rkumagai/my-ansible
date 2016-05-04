@@ -5,3 +5,26 @@
 ---
 - apt: update_cache=yes
   sudo: yes
+- apt: name=vim state=present
+  sudo: yes
+- apt: name=tree state=present
+  sudo: yes
+  
+- name: Regist vimrc
+  stat: path=~/.vimrc
+  register: vimrc
+- template: src=vimrc dest=~/.vimrc
+  when: not vimrc.stat.exists
+- template: src=vimrc dest=~/.vimrc
+  sudo: yes
+  when: not vimrc.stat.exists
+
+- name: Regist inputrc
+  stat: path=~/.inputrc
+  register: inputrc
+- template: src=inputrc dest=~/.inputrc
+  when: not inputrc.stat.exists
+- template: src=inputrc dest=~/.inputrc
+  sudo: yes
+  when: not inputrc.stat.exists
+

@@ -1,5 +1,7 @@
 # This is solrserver playbook
-#
+# 
+# [requirements]
+# - setting for loggin with no password (.ssh/config)
 #
 
 - hosts: solarservers
