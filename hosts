@@ -43,5 +43,8 @@
 ## db-[99:101]-node.example.com
 
 [solarservers]
-# solr-master-01
+solr-master-01
 solr-master-02
+
+[zookeepers]
+zookeeper-01
