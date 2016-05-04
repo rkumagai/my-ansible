@@ -1,0 +1,14 @@
+# This is zooserver playbook
+#
+# [requirements]
+# - setting for loggin with no password (.ssh/config)
+#
+
+- hosts: zookeepers
+  remote_user: vagrant
+  vars:
+      zookeeper_version: 3.4.8
+  roles:
+    - common
+    - role: ansibl3.ubuntu_sunjava
+    - zookeeper

@@ -1,0 +1,34 @@
+---
+
+- name: Regist zookeeper source folder
+  stat: path=/opt/zookeeper-{{ zookeeper_version }}.tar.gz
+  sudo: yes
+  register: zookeeper_source_folder
+
+- name: Create sources directory
+  sudo: yes
+  file: >
+    path=/opt
+    state=directory
+  when: not zookeeper_source_folder.stat.exists
+
+- name: Download Zookeeper
+  sudo: yes
+  get_url: 
+    url=http://ftp.jaist.ac.jp/pub/apache/zookeeper/zookeeper-{{ zookeeper_version }}/zookeeper-{{ zookeeper_version }}.tar.gz
+    dest=/opt/zookeeper-{{ zookeeper_version }}.tar.gz
+    force=no
+  when: not zookeeper_source_folder.stat.exists
+
+- name: Extract Zookeeper
+  sudo: yes
+  command: 
+    tar -C /opt -xvzf /opt/zookeeper-{{ zookeeper_version }}.tar.gz
+    creates=/opt/zookeeper-{{ zookeeper_version }}
+  when: not zookeeper_source_folder.stat.exists
+
+- name: Create sources directory
+  sudo: yes
+  file: >
+    path=/var/lib/zookeeper
+    state=directory
